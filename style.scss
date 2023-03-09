@@ -1,0 +1,25 @@
+@import "overrides";
+
+.flex {
+    display: flex;
+}
+
+.bar {
+    justify-content: space-between;
+}
+
+.links ul {
+    list-style: none;
+    li {
+        padding-left: 15px;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.testo {
+    flex-direction: column;
+    width: 30%;
+}
+
